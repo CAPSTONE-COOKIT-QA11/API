@@ -11,3 +11,4 @@ Feature: Testing API PUT Recipes Users Recipes
     When Send request put update recipes
     Then Status code should be 400 Bad Request
     And Validate put update recipes invalid json schema
+

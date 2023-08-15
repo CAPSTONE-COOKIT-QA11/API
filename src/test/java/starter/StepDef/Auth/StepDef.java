@@ -8,6 +8,7 @@ import io.restassured.http.ContentType;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
 import starter.Cookit.Auth.Auth;
@@ -29,13 +30,12 @@ public class StepDef {
     }
     @Then("Status code should be {int} Created")
 
-        SerenityRest.then()
-                .statusCode(created);
+    public void statusCodeShouldBeCreated(int created) {
+        SerenityRest.then().statusCode(created);
     }
     @And("Validate create new user JSON Schema")
     public void validateGetCreateUserJSONSchema() {
         File json = new File(Constants.JSON_SCHEMA + "Auth/PostUserRegistrationPositive.json");
-
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
 

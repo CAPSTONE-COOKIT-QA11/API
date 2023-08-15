@@ -3,7 +3,6 @@ package starter.Cookit.Auth;
 import io.restassured.http.ContentType;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
-import net.thucydides.core.annotations.Steps;
 import starter.Utils.Constants;
 
 import java.io.File;

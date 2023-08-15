@@ -11,3 +11,4 @@ Feature: Testing API GET Recipes
     When Send request get recipes with invalid path
     Then Status code should be 404 Not Found
     And Validate get recipes invalid json schema
+

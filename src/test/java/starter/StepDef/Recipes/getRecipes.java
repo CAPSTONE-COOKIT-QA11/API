@@ -12,6 +12,7 @@ import starter.Utils.Constants;
 
 import java.io.File;
 
+
 public class getRecipes {
     @Steps
     RecipesCookitAPI recipesCookitAPI;
@@ -35,19 +36,4 @@ public class getRecipes {
     public void validateGetRecipesJsonSchema() {
     }
 
-    @Given("Get recipes with invalid path")
-    public void getRecipesWithInvalidPath() {
-        recipesCookitAPI.setGetRecipes();
-    }
-
-    @When("Send request get recipes with invalid path")
-    public void sendRequestGetRecipesWithInvalidPath() {
-        SerenityRest.when().get(RecipesCookitAPI.GET_RECIPES_INVALID);
-    }
-
-    @And("Validate get recipes invalid json schema")
-    public void validateGetRecipesInvalidJsonSchema() {
-        File json = new File(Constants.JSON_SCHEMA + "/Recipes/GetRecipesInvalidSchema.json");
-        SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
-    }
 }

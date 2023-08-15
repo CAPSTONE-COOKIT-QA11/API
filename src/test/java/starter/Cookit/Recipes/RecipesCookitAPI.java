@@ -3,7 +3,6 @@ package starter.Cookit.Recipes;
 import io.restassured.http.ContentType;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
-import net.thucydides.core.annotations.Steps;
 import starter.Utils.Constants;
 
 import java.io.File;
@@ -24,6 +23,7 @@ public class RecipesCookitAPI {
     public static String GET_TIMELINE_WITH_PARAM = Constants.BASE_URL + "/users/recipes/timeline/{recipe_id}";
     public static String DELETE_RECIPES_INVALID_PARAM = Constants.BASE_URL+"/recipes/{recipe_id}";
 
+
     @Step("Get Recipes")
     public void setGetRecipes(){
         SerenityRest.given().headers("Authorization","Bearer"+Constants.BEARER_TOKEN);
@@ -42,56 +42,4 @@ public class RecipesCookitAPI {
                 .contentType(ContentType.JSON)
                 .body(json);
     }
-    @Step("Get timeline valid path")
-    public void setGetTimelineValidPath(){
-        SerenityRest.given().headers("Authorization","Bearer "+Constants.BEARER_TOKEN);
-    }
-    @Step("Get Tending valid path")
-    public void setGetTrendingValidPath(){
-        SerenityRest.given().headers("Authorization","Bearer"+Constants.BEARER_TOKEN);
-    }
-    @Step("Get recipes detail valid")
-    public void setGetRecipesDetailValid(int id) {
-        SerenityRest.given().headers("Authorization","Bearer"+Constants.BEARER_TOKEN)
-                .pathParam("id", id);
-    }
-    @Step("Post Like Valid")
-    public void setPostLikeValid(int recipes_id){
-        SerenityRest.given().headers("Authorization","Bearer " + Constants.BEARER_TOKEN)
-                .pathParam("recipes_id", recipes_id);
-    }
-    @Step("Get trending with param")
-    public void setGetTrendingWithParam(int id){
-        SerenityRest.given().headers("Authorization","Bearer"+ Constants.BEARER_TOKEN)
-                .pathParam("id", id);
-    }
-    @Step("Get detail recipes invalid param")
-    public void setGetRecipesDetailInvalid(String id){
-        SerenityRest.given().headers("Authorization","Bearer"+Constants.BEARER_TOKEN)
-                .pathParam("id", id);
-    }
-    @Step("Delete Recipes valid param")
-    public void setDeleteRecipesValidParam(int id){
-        SerenityRest.given().headers("Authorization","Bearer " + Constants.BEARER_TOKEN)
-                .pathParam("id", id);
-    }
-    @Step("Post unlike recipes")
-    public void setPostUnlike(int id){
-        SerenityRest.given().headers("Authorization","Bearer "+Constants.BEARER_TOKEN)
-                .pathParam("id", id);
-    }
-    @Step("Get timeline with param")
-    public void setGetTimelineWithParam(int recipe_id){
-        SerenityRest.given().headers("Authorization","Bearer "+Constants.BEARER_TOKEN)
-                .pathParam("recipe_id", recipe_id);
-
-    }
-    @Step("Delete recipes with param had been delete")
-    public void setDeleteRecipesInvalidParam(int recipe_id){
-            SerenityRest.given().headers("Authorization","Bearer " + Constants.BEARER_TOKEN)
-                    .pathParam("recipe_id", recipe_id);
-    }
-
-
-
 }

@@ -31,15 +31,4 @@ public class PutRecipes {
         File JsonSchema = new File(Constants.JSON_SCHEMA+"/Recipes/PutRecipesSchema.json");
         SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(JsonSchema));
     }
-    @Given("Put Recipes Update users invalid json with valid id {int}")
-    public void PutRecipesUpdateUsersInvalidJsonWithValidId(int id) {
-        File JsonRequest = new File(Constants.JSON_REQ_BODY+"/Recipes/RecipesPutUserInvalidJson.json");
-        recipesCookitAPI.setPutRecipeValidId(id,JsonRequest);
-    }
-
-    @And("Validate put update recipes invalid json schema")
-    public void validatePutUpdateRecipesInvalidJsonSchema() {
-        File JsonSchema = new File(Constants.JSON_SCHEMA+"/Recipes/PutRecipesInvalidSchema.json");
-        SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(JsonSchema));
-    }
 }

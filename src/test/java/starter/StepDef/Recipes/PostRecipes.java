@@ -10,7 +10,6 @@ import starter.Cookit.Recipes.RecipesCookitAPI;
 import starter.Utils.Constants;
 
 import java.io.File;
-import java.lang.invoke.ConstantCallSite;
 
 public class PostRecipes {
 
@@ -31,20 +30,4 @@ public class PostRecipes {
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
 
-    @Given("post Recipes with invalid path")
-    public void postRecipesWithInvalidPath() {
-        File JsonReq = new File(Constants.JSON_REQ_BODY + "/Recipes/RecipesPostInvalid.json");
-        recipesCookitAPI.setPostRecipes(JsonReq);
-    }
-
-    @When("Send request post with invalid path")
-    public void sendRequestPostWithInvalidPath() {
-        SerenityRest.when().post(RecipesCookitAPI.GET_RECIPES_INVALID);
-    }
-
-    @And("Validate post recipes invalid path json schema")
-    public void validatePostRecipesInvalidPathJsonSchema() {
-        File JsonReq = new File(Constants.JSON_REQ_BODY + "/Recipes/RecipesPostInvalid.json");
-        recipesCookitAPI.setPostRecipes(JsonReq);
-    }
 }
