@@ -29,7 +29,8 @@ public class StepDef {
     }
     @Then("Status code should be {int} Created")
     public void statusCodeShouldBeCreated(int created) {
-        SerenityRest.then().statusCode(created);
+        SerenityRest.then()
+                .statusCode(created);
     }
     @And("Validate create new user JSON Schema")
     public void validateGetCreateUserJSONSchema() {
