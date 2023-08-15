@@ -28,13 +28,14 @@ public class StepDef {
         SerenityRest.when().post(Auth.POST_CREATE_USER);
     }
     @Then("Status code should be {int} Created")
-    public void statusCodeShouldBeCreated(int created) {
+
         SerenityRest.then()
                 .statusCode(created);
     }
     @And("Validate create new user JSON Schema")
     public void validateGetCreateUserJSONSchema() {
         File json = new File(Constants.JSON_SCHEMA + "Auth/PostUserRegistrationPositive.json");
+
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
 
@@ -53,6 +54,7 @@ public class StepDef {
         File json = new File(Constants.JSON_SCHEMA + "/Auth/InvalidRegisterNegatif.json");
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
+
     @Given("Post login with valid and complete JSON body")
     public void postLoginWithValidAndCompleteJSONBody() {
         File json = new File(Constants.JSON_REQ_BODY+"/Auth/LoginReqBody.json");
@@ -71,4 +73,5 @@ public class StepDef {
         File json = new File(Constants.JSON_SCHEMA+"/Auth/PostLogin.json");
         SerenityRest.and().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
+
 }
