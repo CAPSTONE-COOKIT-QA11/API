@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "user_id": {
+          "type": "integer"
+        },
+        "type": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "total_like": {
+          "type": "integer"
+        },
+        "total_comment": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "user_id",
+        "type",
+        "status",
+        "name",
+        "description",
+        "total_like",
+        "total_comment"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "message"
+  ]
+}

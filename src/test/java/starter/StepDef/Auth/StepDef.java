@@ -28,12 +28,14 @@ public class StepDef {
         SerenityRest.when().post(Auth.POST_CREATE_USER);
     }
     @Then("Status code should be {int} Created")
-    public void statusCodeShouldBeCreated(int created) {
-        SerenityRest.then().statusCode(created);
+
+        SerenityRest.then()
+                .statusCode(created);
     }
     @And("Validate create new user JSON Schema")
     public void validateGetCreateUserJSONSchema() {
-        File json = new File(Constants.JSON_SCHEMA + "/Auth/PostUserRegistrationPositive.json");
+        File json = new File(Constants.JSON_SCHEMA + "Auth/PostUserRegistrationPositive.json");
+
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
 
@@ -46,6 +48,7 @@ public class StepDef {
     public void statusCodeShouldBeNotFound(int not) {
         SerenityRest.then().statusCode(not);
     }
+
     @And("Validate create new user invalid JSON Schema")
     public void validateCreateNewUserInvalidJSONSchema() {
         File json = new File(Constants.JSON_SCHEMA + "/Auth/InvalidRegisterNegatif.json");
@@ -70,29 +73,5 @@ public class StepDef {
         File json = new File(Constants.JSON_SCHEMA+"/Auth/PostLogin.json");
         SerenityRest.and().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
-
-    @Given("Post login with valid parameter username and blank parameter password")
-    public void postLoginWithValidParameterUsernameAndBlankParameterPassword() {
-        File json = new File(Constants.JSON_REQ_BODY+"/Auth/LoginBlankPassReqBody.json");
-        auth.postLogin(json);
-    }
-
-    @Then("API response should return {int} Bad Request")
-    public void apiResponseShouldReturnBadRequest(int Bad) {
-        SerenityRest.then().statusCode(Bad);
-    }
-    @And("Validate JSON Schema")
-    public void validateJSONSchema() {
-        File json = new File(Constants.JSON_SCHEMA+"/Auth/LoginInvalid.json");
-        SerenityRest.and().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
-    }
-
-    @Given("Post login with blank parameter username and valid parameter password")
-    public void postLoginWithBlankParameterUsernameAndValidParameterPassword() {
-        File json = new File(Constants.JSON_REQ_BODY+"/Auth/LoginBlankUser.json");
-        auth.postLogin(json);
-    }
-
-
 
 }
