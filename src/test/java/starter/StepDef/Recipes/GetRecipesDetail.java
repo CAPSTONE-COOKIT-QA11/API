@@ -16,7 +16,7 @@ public class GetRecipesDetail {
     RecipesCookitAPI recipesCookitAPI;
     @Given("Get recipes detail with valid path id {int}")
     public void getRecipesDetailWithValidPath(int id) {
-        recipesCookitAPI.setGetRecipesDetailValid(id);
+       recipesCookitAPI.setGetRecipesDetailValid(id);
     }
 
     @When("Send request get recipes detail with valid path")
@@ -29,10 +29,10 @@ public class GetRecipesDetail {
         File json = new File(Constants.JSON_SCHEMA + "/Recipes/GetRecipesDetailValidSchema.json");
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
-    @Given("Get recipes detail with invalid param id {string}")
+  @Given("Get recipes detail with invalid param id {string}")
     public void getRecipesDetailWithInvalidParamId(String id) {
         recipesCookitAPI.setGetRecipesDetailInvalid(id);
-    }
+   }
 
     @When("Send request get recipes detail with invalid para")
     public void sendRequestGetRecipesDetailWithInvalidPara() {

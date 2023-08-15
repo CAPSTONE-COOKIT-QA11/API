@@ -7,7 +7,7 @@ Feature: Insert New Recipes Ingredient
     And Validate json schema insert new recipes
      Examples:
        | recipe_id |
-       | 203       |
+       | 259       |
        | 204       |
 
  #negative
@@ -17,18 +17,9 @@ Feature: Insert New Recipes Ingredient
     Then Status code should be 400 Bad Request
     Examples:
       | recipe_id |
-      | 203       |
+      | 259        |
       | 204       |
 
- #negative
-  Scenario Outline: Insert New Recipes Ingredient with empty JSON and recipe_id
-    Given Post insert new recipes ingredient with empty json and valid <recipe_id>
-    When Send insert new recipes ingredient with empty
-    Then Status code should be 400 Bad Request
-    Examples:
-      | recipe_id |
-      | 203       |
-      | 204       |
 
  #negative
   Scenario Outline: Insert New Recipes Ingredient with empty JSON and recipe_id

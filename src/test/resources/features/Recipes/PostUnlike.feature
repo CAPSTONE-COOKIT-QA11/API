@@ -1,6 +1,6 @@
 Feature: Testing API POST Recipes Users Recipes
   Scenario: POST unlike Recipes with valid path
-    Given post unlike Recipes with valid path id 67
+    Given post unlike Recipes with valid path id 243
     When Send request post unlike with valid path
     Then Status code should be 200 OK
     And Validate pos unlike recipes  json schema

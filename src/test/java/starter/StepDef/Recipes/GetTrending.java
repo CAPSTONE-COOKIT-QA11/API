@@ -17,7 +17,7 @@ public class GetTrending {
     RecipesCookitAPI recipesCookitAPI;
     @Given("Get Trending with valid path")
     public void getTrendingWithValidPath() {
-        recipesCookitAPI.setGetTrendingValidPath();
+       recipesCookitAPI.setGetTrendingValidPath();
     }
 
     @When("Send request get trending with valid path")
@@ -31,9 +31,9 @@ public class GetTrending {
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
 
-    @Given("Get Trending with param {int}")
+   @Given("Get Trending with param {int}")
     public void getTrendingWithParam(int id) {
-        recipesCookitAPI.setGetTrendingWithParam(id);
+       recipesCookitAPI.setGetTrendingWithParam(id);
     }
 
     @When("Send request get trending with param")

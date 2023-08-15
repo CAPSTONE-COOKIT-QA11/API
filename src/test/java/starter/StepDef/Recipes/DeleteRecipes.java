@@ -17,7 +17,7 @@ public class DeleteRecipes {
 
     @Given("Delete recipes with valid param id {int}")
     public void deleteRecipesWithValidParamId(int id) {
-        recipesCookitAPI.setDeleteRecipesValidParam(id);
+       recipesCookitAPI.setDeleteRecipesValidParam(id);
     }
 
     @When("Send request Delete recipes with valid path")

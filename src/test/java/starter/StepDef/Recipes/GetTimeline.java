@@ -17,9 +17,9 @@ public class GetTimeline {
     @Steps
     RecipesCookitAPI recipesCookitAPI;
 
-    @Given("Get Timeline with valid path")
+   @Given("Get Timeline with valid path")
     public void getTimelineWithValidPath() {
-        recipesCookitAPI.setGetTimelineValidPath();
+       recipesCookitAPI.setGetTimelineValidPath();
     }
     @When("Send request get timeline with valid path")
     public void sendRequestGetTimelineWithValidPath() {

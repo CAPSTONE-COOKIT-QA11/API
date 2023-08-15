@@ -30,10 +30,10 @@ public class PostLike {
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
 
-    @Given("Post Like with valid path recipes {int}")
-    public void postLikeWithValidPathRecipes(int recipes_id) {
-        recipesCookitAPI.setPostLikeValid(recipes_id);
-    }
+   @Given("Post Like with valid path recipes {int}")
+   public void postLikeWithValidPathRecipes(int recipes_id) {
+      recipesCookitAPI.setPostLikeValid(recipes_id);
+   }
 
     @When("Send request Post Like with invalid param")
     public void sendRequestPostLikeWithInvalidParam() {

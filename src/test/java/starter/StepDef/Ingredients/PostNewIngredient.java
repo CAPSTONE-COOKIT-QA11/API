@@ -50,11 +50,6 @@ public class PostNewIngredient {
                 .post(IngredientsAPI.POST_INGREDIENTS);
     }
 
-    @Then("Status code should be {int} Bad Request")
-    public void statusCodeShouldBeBadRequest(int code) {
-        SerenityRest.then()
-                .statusCode(code);
-    }
 
     @Given("Post insert new recipes ingredient with empty json and valid {}")
     public void postInsertNewRecipesIngredientWithEmptyJsonAndValid(int recipe_id) {

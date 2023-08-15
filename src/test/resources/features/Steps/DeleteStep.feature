@@ -1,7 +1,7 @@
 Feature: Delete Step
 
   Scenario: Delete Steps with valid recipe id
-    Given Delete step with valid recipe id 203
+    Given Delete step with valid recipe id 204
     When Send request delete steps valid id
     Then Status code should be 200 OK
     And Validate json schema delete valid param
@@ -13,7 +13,7 @@ Feature: Delete Step
     And Validate json schema delete invalid param
 
   Scenario: Delete Steps with valid recipe id and step id
-    Given delete step with valid param and body recipes 203 steps 218
+    Given delete step with valid param and body recipes 205 steps 229
     When Send request delete steps valid recipe id and step id
     Then Status code should be 200 OK
     And Validate json schema delete valid two param

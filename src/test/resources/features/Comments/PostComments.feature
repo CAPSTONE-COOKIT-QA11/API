@@ -1,7 +1,7 @@
 @Test
 Feature: Testing API POST Comments
   Scenario: POST Comments with valid path
-    Given POST Comments with valid id 1
+    Given POST Comments with valid id 134
     When Send request post Comments with valid path
     Then Status code should be 201 Created
     And Validate post Comments Valid json schema

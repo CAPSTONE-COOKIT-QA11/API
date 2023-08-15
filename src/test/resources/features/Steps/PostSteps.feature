@@ -1,6 +1,6 @@
 Feature: Post Steps
   Scenario: insert new steps with valid id Steps
-  Given Post step with valid data steps id 200
+  Given Post step with valid data steps id 203
   When Send request post steps valid id
   Then Status code should be 201 Created
   And Validate json schema post step valid

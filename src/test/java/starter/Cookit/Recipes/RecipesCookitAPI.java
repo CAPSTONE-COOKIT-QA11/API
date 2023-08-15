@@ -42,4 +42,53 @@ public class RecipesCookitAPI {
                 .contentType(ContentType.JSON)
                 .body(json);
     }
+    @Step("Post Like Valid")
+    public void setPostLikeValid(int recipes_id){
+        SerenityRest.given().headers("Authorization","Bearer " + Constants.BEARER_TOKEN)
+                .pathParam("recipes_id", recipes_id);
+    }
+    @Step("Post unlike recipes")
+    public void setPostUnlike(int id){
+        SerenityRest.given().headers("Authorization","Bearer "+Constants.BEARER_TOKEN)
+                .pathParam("id", id);
+    }
+    @Step("Delete recipes with param had been delete")
+    public void setDeleteRecipesInvalidParam(int recipe_id){
+        SerenityRest.given().headers("Authorization","Bearer " + Constants.BEARER_TOKEN)
+                .pathParam("recipe_id", recipe_id);
+    }
+    @Step("Delete Recipes valid param")
+    public void setDeleteRecipesValidParam(int id){
+        SerenityRest.given().headers("Authorization","Bearer " + Constants.BEARER_TOKEN)
+                .pathParam("id", id);
+    }
+    @Step("Get recipes detail valid")
+    public void setGetRecipesDetailValid(int id) {
+        SerenityRest.given().headers("Authorization","Bearer"+Constants.BEARER_TOKEN)
+                .pathParam("id", id);
+    }
+    @Step("Get detail recipes invalid param")
+    public void setGetRecipesDetailInvalid(String id){
+        SerenityRest.given().headers("Authorization","Bearer"+Constants.BEARER_TOKEN)
+                .pathParam("id", id);
+    }
+    @Step("Get timeline valid path")
+    public void setGetTimelineValidPath(){
+        SerenityRest.given().headers("Authorization","Bearer "+Constants.BEARER_TOKEN);
+    }
+    @Step("Get timeline with param")
+    public void setGetTimelineWithParam(int recipe_id){
+        SerenityRest.given().headers("Authorization","Bearer "+Constants.BEARER_TOKEN)
+                .pathParam("recipe_id", recipe_id);
+
+    }
+    @Step("Get Tending valid path")
+    public void setGetTrendingValidPath(){
+        SerenityRest.given().headers("Authorization","Bearer"+Constants.BEARER_TOKEN);
+    }
+    @Step("Get trending with param")
+    public void setGetTrendingWithParam(int id){
+        SerenityRest.given().headers("Authorization","Bearer"+ Constants.BEARER_TOKEN)
+                .pathParam("id", id);
+    }
 }
