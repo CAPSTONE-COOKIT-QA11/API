@@ -4,7 +4,11 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.restassured.http.ContentType;
 import io.restassured.module.jsv.JsonSchemaValidator;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
 import starter.Cookit.Auth.Auth;
@@ -25,6 +29,7 @@ public class StepDef {
         SerenityRest.when().post(Auth.POST_CREATE_USER);
     }
     @Then("Status code should be {int} Created")
+
     public void statusCodeShouldBeCreated(int created) {
         SerenityRest.then().statusCode(created);
     }
@@ -49,6 +54,7 @@ public class StepDef {
         File json = new File(Constants.JSON_SCHEMA + "/Auth/InvalidRegisterNegatif.json");
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
+
     @Given("Post login with valid and complete JSON body")
     public void postLoginWithValidAndCompleteJSONBody() {
         File json = new File(Constants.JSON_REQ_BODY+"/Auth/LoginReqBody.json");
@@ -67,4 +73,5 @@ public class StepDef {
         File json = new File(Constants.JSON_SCHEMA+"/Auth/PostLogin.json");
         SerenityRest.and().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
+
 }

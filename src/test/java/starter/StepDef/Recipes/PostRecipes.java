@@ -29,4 +29,5 @@ public class PostRecipes {
         File json = new File(Constants.JSON_SCHEMA + "/Recipes/PostRecipesSchema.json");
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
+
 }
