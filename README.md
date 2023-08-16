@@ -102,34 +102,10 @@ Open APP https://cookit-immersive.netlify.app/
          or:
       a. You can click run from CucumberTestSuite
 
-### F. 📱 Team-1 
+### F. 📱 Member Team-1 
 
-  ![LinkedIn](https://img.shields.io/badge/-Arum%20Puspa-white?style=for-the-badge&logo=linkedin&logoColor=blue)
+  ![LinkedIn](https://img.shields.io/badge/-Arum%20Puspa-white?style=for-the-badge&logo=linkedin&logoColor=blue)(https://www.linkedin.com/in/arum-puspa-khinanthi-b3683b221)
   [![GitHub](https://img.shields.io/badge/-ArumCute-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/arumcute)
 
-  ![LinkedIn](https://img.shields.io/badge/-Rolando%20Tigor%20Sihombing-white?style=for-the-badge&logo=linkedin&logoColor=blue)
-  [![GitHub](https://img.shields.io/badge/-RolandoTigor-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/tigorrr4)
-  
-  ![LinkedIn](https://img.shields.io/badge/-Wahid%20Abdul%20Azis-white?style=for-the-badge&logo=linkedin&logoColor=blue)
-  [![GitHub](https://img.shields.io/badge/-WahidAzis-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/WahidAzis)
-
-
-How to Run This Project:
-
-    You need to install Java (we recommend to use Java 8) and Maven first on your machine
-    Clone this project into your machine
-    Run this project from IDE:
-        Open this project from your IDE
-        Open your IDE terminal
-        Type and run this command on your IDE terminal:
-            mvn clean verify
-    Run this project from terminal:
-        Open your terminal
-        Change your directory to where you place this project on your machine using this command:
-            cd your-project-directory-path
-        Type and run this command on your terminal:
-            mvn clean verify
-
-Team Member:
-
+ 
     
