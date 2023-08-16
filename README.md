@@ -8,14 +8,14 @@
   </p>
 </div>
 
-## 📑 About the Project
+## 📑 Deskripsi Project
 <p align="justify">Welcome to our API Testing repository for COOKIT API. This project is made for completing group project from Alterra Academy, Quality Engineer Immersive Class. In this project, we perform an API automation testing for three resources from COOKIT API. </p>
 
 Open API https://app.swaggerhub.com/apis/STARCON10_1/ALTA-Cookit-BE/1.0
 
 Open APP https://cookit-immersive.netlify.app/
 
-## 🛠 Tools
+## 🛠 Tools & Technology Stack
 
 **Automation :**
 
@@ -38,23 +38,81 @@ Open APP https://cookit-immersive.netlify.app/
 
 #
 
-Overall Test Report:
+### A. Project Description
+    > Project Goal:
+      The goal of this project is to create a comprehensive set of manual and automated tests for the 
+      TODOIST API. These tests will help to ensure that the API is working as expected.
+  
+    > Scope:
+      The scope of this project includes a number of endpoints and resources exposed by the TODOIST
+      API. This includes the following: Projects, Sections, Tasks, Comments, Labels.
+    
+    > Test Planning:
+      a. Analyze the API documentation for https://app.swaggerhub.com/apis/STARCON10_1/ALTA-Cookit-BE/1.0 
+      to understand its    endpoints, parameters, and expected responses.
+      b. Identify the key features and functionalities to be tested.
+      c. Define test objectives, test scenarios, and test cases based on the API requirements.
+
+    > Testing Phase:
+      a. Manual testing
+         Manual testing will be completed in the first phase. This will involve manually sending 
+         requests to the API and verifying the responses.
+   
+      b. Automation testing
+         Automated testing will be completed in the second phase. This will involve to create automated 
+         tests that can be run against the API.
+
+    > Documentation and Reporting:
+      a. Document the test cases, test results, and any issues discovered during testing.
+      b. Generate comprehensive reports summarizing the testing activities, results, and recommendations 
+         for improvements.
+
+### B. Overall Test Report Image
 
 
-API Test Coverage:
 
 
+### C. Coverage of Each Feature
+    > Auth                     :  % covered to automation
+    > Users                    :  % covered to automation
+    > Admin                    :  % covered to automation
+    > Followers                :  % covered to automation
+    > Recipes                  :  % covered to automation
+    > Images                   :  % covered to automation
+    > Comments                 :  % covered to automation
+    > Steps                    :  % covered to automation
+    > Ingredients              :  % covered to automation
+    > Ingredients Details      :  % covered to automation
+    > Carts                    :  % covered to automation
+    > Transactions             :  % covered to automation
+    > Transactions Details     :  % covered to automation
 
-Overall T.est Report:
+### D. 🏎️ How to Run all Test Scenarios
+    > Manual Testing using Postman:
+      a. Add new request
+      b. Choose method
+      c. Input url
+      d. Input body (if needed)
+      e. Input assertion
+      f. Click send
 
-Tools & Tech Stack:
+    > Automation Testing:
+      a. Click on text editor's terminal
+      b. input => mvn clean verify
+         or:
+      a. You can click run from CucumberTestSuite
 
-    Java
-    Postman
-    Serenity Rest BDD
-    Cucumber
-    Maven
-    Github Project (for project management tools)
+### F. 📱 Team-1 
+
+  ![LinkedIn](https://img.shields.io/badge/-Arum%20Puspa-white?style=for-the-badge&logo=linkedin&logoColor=blue)
+  [![GitHub](https://img.shields.io/badge/-ArumCute-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/arumcute)
+
+  ![LinkedIn](https://img.shields.io/badge/-Rolando%20Tigor%20Sihombing-white?style=for-the-badge&logo=linkedin&logoColor=blue)
+  [![GitHub](https://img.shields.io/badge/-RolandoTigor-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/tigorrr4)
+  
+  ![LinkedIn](https://img.shields.io/badge/-Wahid%20Abdul%20Azis-white?style=for-the-badge&logo=linkedin&logoColor=blue)
+  [![GitHub](https://img.shields.io/badge/-WahidAzis-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/WahidAzis)
+
 
 How to Run This Project:
 
