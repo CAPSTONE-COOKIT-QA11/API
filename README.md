@@ -28,7 +28,7 @@ Open APP https://cookit-immersive.netlify.app/
 
 **Test Case Management:**  
 
-[![Google Sheets](https://img.shields.io/badge/-Google%20sheets-4bc47b?style=for-the-badge&logoColor=black)](https://img.shields.io/badge/-Google%20sheets-4bc47b?style=for-the-badge&logoColor=black)
+[![Google Sheets](https://img.shields.io/badge/-Google%20sheets-4bc47b?style=for-the-badge&logoColor=black)](https://docs.google.com/spreadsheets/d/1Jd1KRGa16MUq6HWGJdycHC7nT4FFiqyfMpeI8Z_vhTc/edit?usp=sharing)
 [![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://lively-station-149019.postman.co/workspace/TEAM-D---COOKIT~de3aa802-81f3-4810-bc47-dccccbae4d91/collection/21751748-0f783ec4-2037-44e3-bb70-3e1ae0efb476?action=share&creator=21751748)
 [![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)](https://trello.com/b/x4mtkPka/cookit)
 
