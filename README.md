@@ -1,6 +1,6 @@
 <div align="center">
   <a href="">
-    <img src="./COOKIT.jpg" width="144" height="144">
+    <img src="./COOKIT.jpg">
   </a>
   <p align="center">
     API Testing with RestAssured and SerenityBDD
