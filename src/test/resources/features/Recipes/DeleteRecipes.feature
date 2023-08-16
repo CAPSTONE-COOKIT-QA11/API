@@ -1,7 +1,7 @@
 Feature: Delete Recipes
 
   Scenario: Delete recipes with valid path
-    Given Delete recipes with valid param id 261
+    Given Delete recipes with param valid id 288
     When Send request Delete recipes with valid path
     Then Status code should be 200 OK
     And Validate delete recipes valid json schema

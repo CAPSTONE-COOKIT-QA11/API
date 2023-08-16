@@ -1,4 +1,4 @@
-
+@Cook
 Feature: Delete Comments
   Scenario: Delete Comments with valid param
     Given Delete comments with valid param and body recipes 1 comments 134

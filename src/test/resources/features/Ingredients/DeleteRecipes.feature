@@ -1,3 +1,4 @@
+@Cook
 Feature: Delete Recipes
   #Positive
  Scenario Outline: Delete Recipes with Valid recipe id

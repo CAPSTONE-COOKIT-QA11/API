@@ -15,7 +15,7 @@ public class DeleteRecipes {
     @Steps
     RecipesCookitAPI recipesCookitAPI;
 
-    @Given("Delete recipes with valid param id {int}")
+    @Given("Delete recipes with param valid id {int}")
     public void deleteRecipesWithValidParamId(int id) {
        recipesCookitAPI.setDeleteRecipesValidParam(id);
     }

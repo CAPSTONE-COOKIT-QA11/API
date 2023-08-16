@@ -1,4 +1,4 @@
-@Test
+@Cook
 Feature: Testing API GET Comments
   Scenario: GET Comments with valid path
     Given Get Comments with valid id 132
