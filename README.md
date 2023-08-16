@@ -7,14 +7,10 @@ Test Cases / Test Scenarios:
 
 Overall Test Report:
 
-Screenshot from 2023-07-05 21-55-45
 
-Screenshot from 2023-07-05 21-56-08
 API Test Coverage:
 
-Screenshot from 2023-07-05 22-21-36
 
-Screenshot from 2023-07-05 21-59-51
 Tools & Tech Stack:
 
     Java
