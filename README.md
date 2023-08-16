@@ -9,9 +9,10 @@
 </div>
 
 ## 📑 About the Project
-<p align="justify">Welcome to our API Testing repository. Originally as a Group Project by Team 4 Altera Academy, our repository can be purposed as boilerplate too. Happy cracking then! </p>
+<p align="justify">Welcome to our API Testing repository for cOOKIT API. This project is made for completing group project from Alterra Academy, Quality Engineer Immersive Class. In this project, we perform an API automation testing for three resources from COOKIT API. </p>
 
 Open API [https://developer.todoist.com/rest/v2.](https://app.swaggerhub.com/apis/STARCON10_1/ALTA-Cookit-BE/1.0)
+
 Open APP https://cookit-immersive.netlify.app/
 
 Overall Test Report:
