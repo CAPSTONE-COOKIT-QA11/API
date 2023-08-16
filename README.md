@@ -29,12 +29,12 @@ Open APP https://cookit-immersive.netlify.app/
 **Test Case Management:**  
 
 [![Google Sheets](https://img.shields.io/badge/-Google%20sheets-4bc47b?style=for-the-badge&logoColor=black)](https://img.shields.io/badge/-Google%20sheets-4bc47b?style=for-the-badge&logoColor=black)
-[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://dark-firefly-199048.postman.co/workspace/%255BTeam-4---Group-Project%255D-Manual~c680323a-b1cc-4ce2-a0b1-b6327ba16504/environment/26235971-3a1be08f-a1d1-4b77-83cf-11fcfa4c7d40)
-[![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)](https://trello.com/b/2ArZn5iN/manual-and-automation-testing-api-todoistalta-qa-11)
+[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://lively-station-149019.postman.co/workspace/TEAM-D---COOKIT~de3aa802-81f3-4810-bc47-dccccbae4d91/collection/21751748-0f783ec4-2037-44e3-bb70-3e1ae0efb476?action=share&creator=21751748)
+[![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)](https://trello.com/b/x4mtkPka/cookit)
 
 **Communication:**  
 
-[![GitHub](https://img.shields.io/badge/github%20Project-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WahidAzis/ALTA_QE11_Team4_TODOIST)
+[![GitHub](https://img.shields.io/badge/github%20Project-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CAPSTONE-COOKIT-QA11)
 
 #
 
