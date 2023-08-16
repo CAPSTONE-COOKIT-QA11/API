@@ -1,7 +1,4 @@
-<div align="center">
-  <a href="">
-    <img src="./COOKIT.jpg">
-  </a>
+
   <p align="center">
     API Testing with RestAssured and SerenityBDD
     <br />
@@ -10,17 +7,21 @@
     <br />
   </p>
 </div>
-ALTA-QE11-Capstone-Cookit-API
 
-This is an API automation testing project for Cookit API. This project was made for completing capstone project from Alterra Academy, Quality Engineer Immersive Class. In this project, we perform an API automation testing for 13 resources and 51 endpoints from Cookit API. This automation project can only cover 51 test scenarios from 277 test scenarios that we've made for now.
-Test Cases / Test Scenarios:
+## 📑 About the Project
+<p align="justify">Welcome to our API Testing repository. Originally as a Group Project by Team 4 Altera Academy, our repository can be purposed as boilerplate too. Happy cracking then! </p>
 
-   
+Open API [https://developer.todoist.com/rest/v2.](https://app.swaggerhub.com/apis/STARCON10_1/ALTA-Cookit-BE/1.0)
+Open APP https://cookit-immersive.netlify.app/
+
 Overall Test Report:
 
 
 API Test Coverage:
 
+
+
+Overall T.est Report:
 
 Tools & Tech Stack:
 
