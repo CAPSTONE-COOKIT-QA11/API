@@ -41,10 +41,10 @@ Open APP https://cookit-immersive.netlify.app/
 ### A. Project Description
     > Project Goal:
       The goal of this project is to create a comprehensive set of manual and automated tests for the 
-      TODOIST API. These tests will help to ensure that the API is working as expected.
+      COOKIT API. These tests will help to ensure that the API is working as expected.
   
     > Scope:
-      The scope of this project includes a number of endpoints and resources exposed by the TODOIST
+      The scope of this project includes a number of endpoints and resources exposed by the COOKIT
       API. This includes the following: Projects, Sections, Tasks, Comments, Labels.
     
     > Test Planning:
