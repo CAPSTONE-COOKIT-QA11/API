@@ -35,4 +35,9 @@ public class PostUnlikeRecipes {
         File json = new File(Constants.JSON_SCHEMA + "/Recipes/PostUnlikeInvalidSchema.json");
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
+    @Given("post unlike Recipes with invalid path id {int}")
+    public void postUnlikeRecipesWithinValidPathId(int id) {
+        recipesCookitAPI.setPostUnlike(id);
+    }
+
 }

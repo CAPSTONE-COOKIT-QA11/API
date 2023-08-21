@@ -18,7 +18,7 @@ public class RecipesCookitAPI {
     public static String GET_RECIPES_INVALID = Constants.BASE_URL+"/recipe";
     public static String GET_TRENDING_WITH_PARAM = Constants.BASE_URL +"/recipes/trending/{id}";
     public static String GET_RECIPES_DETAIL_INVALID = Constants.BASE_URL +"/recipes/{id}/detail";
-    public static String DELETE_RECIPES_VALID_PARAM = Constants.BASE_URL+"/recipes/{id}";
+    public static String DELETE_RECIPES_VALID_PARAM = Constants.BASE_URL+"/recipes/{recipe_id}";
     public static String POST_UNLIKE = Constants.BASE_URL+ "/recipes/{id}/unlike";
     public static String GET_TIMELINE_WITH_PARAM = Constants.BASE_URL + "/users/recipes/timeline/{recipe_id}";
     public static String DELETE_RECIPES_INVALID_PARAM = Constants.BASE_URL+"/recipes/{recipe_id}";
@@ -45,7 +45,7 @@ public class RecipesCookitAPI {
     @Step("Post Like Valid")
     public void setPostLikeValid(int recipes_id){
         SerenityRest.given().headers("Authorization","Bearer " + Constants.BEARER_TOKEN)
-                .pathParam("recipes_id", recipes_id);
+                .pathParam("recipe_id", recipes_id);
     }
     @Step("Post unlike recipes")
     public void setPostUnlike(int id){
@@ -60,7 +60,7 @@ public class RecipesCookitAPI {
     @Step("Delete Recipes valid param")
     public void setDeleteRecipesValidParam(int id){
         SerenityRest.given().headers("Authorization","Bearer " + Constants.BEARER_TOKEN)
-                .pathParam("id", id);
+                .pathParam("recipe_id", id);
     }
     @Step("Get recipes detail valid")
     public void setGetRecipesDetailValid(int id) {

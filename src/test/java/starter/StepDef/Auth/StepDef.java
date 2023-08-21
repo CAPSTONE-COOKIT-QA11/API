@@ -35,7 +35,7 @@ public class StepDef {
     }
     @And("Validate create new user JSON Schema")
     public void validateGetCreateUserJSONSchema() {
-        File json = new File(Constants.JSON_SCHEMA + "Auth/PostUserRegistrationPositive.json");
+        File json = new File(Constants.JSON_SCHEMA + "/Auth/PostUserRegistrationPositive.json");
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
 
