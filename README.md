@@ -104,10 +104,10 @@ Open APP https://cookit-immersive.netlify.app/
 
 ### F. 📱 Member Team-1 
 
-  [![LinkedIn](https://img.shields.io/badge/-Tris%20Jansen-white?style=for-the-badge&logo=linkedin&logoColor=blue)]()
+  [![LinkedIn](https://img.shields.io/badge/-Tris%20Jansen-white?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/tris-jansen-lumban-toruan-aab843158/)
   [![GitHub](https://img.shields.io/badge/-TrisJansen-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/TrisJansen)
   
-  [![LinkedIn](https://img.shields.io/badge/-Ardhi%20Wiranata-white?style=for-the-badge&logo=linkedin&logoColor=blue)]()
+  [![LinkedIn](https://img.shields.io/badge/-Ardhi%20Wiranata-white?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/ardhi-wiranata/)
   [![GitHub](https://img.shields.io/badge/-Ardhi1102-white?style=for-the-badge&logo=github&logoColor=black)]([https://github.com/arumcute](https://github.com/Ardhi1102))
 
   [![LinkedIn](https://img.shields.io/badge/-Arum%20Puspa-white?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/arum-puspa-khinanthi-b3683b221)
