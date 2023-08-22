@@ -71,7 +71,7 @@ Open APP https://cookit-immersive.netlify.app/
 
 ### B. Overall Test Report Image
 
-![gambar](https://github.com/CAPSTONE-COOKIT-QA11/API/assets/124779557/39634a4d-f67a-4257-9c57-7cc9bf75a2b7)
+![gambar](https://github.com/CAPSTONE-COOKIT-QA11/API/assets/124779557/5ac0b365-2646-4583-9280-079b2cdfc104)
 
 ![gambar](https://github.com/CAPSTONE-COOKIT-QA11/API/assets/124779557/e1a79937-fc19-4110-a412-9bdfa8010769)
 
