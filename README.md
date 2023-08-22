@@ -73,19 +73,19 @@ Open APP https://cookit-immersive.netlify.app/
 
 
 ### C. Coverage of Each Feature
-    > Auth                     :  % covered to automation
-    > Users                    :  % covered to automation
-    > Admin                    :  % covered to automation
-    > Followers                :  % covered to automation
-    > Recipes                  :  % covered to automation
-    > Images                   :  % covered to automation
-    > Comments                 :  % covered to automation
-    > Steps                    :  % covered to automation
-    > Ingredients              :  % covered to automation
-    > Ingredients Details      :  % covered to automation
-    > Carts                    :  % covered to automation
-    > Transactions             :  % covered to automation
-    > Transactions Details     :  % covered to automation
+    > Auth                     : 80  % covered to automation
+    > Users                    : 35  % covered to automation
+    > Admin                    : 75  % covered to automation
+    > Followers                : 100 % covered to automation
+    > Recipes                  : 83  % covered to automation
+    > Images                   : 100 % covered to automation
+    > Comments                 : 100 % covered to automation
+    > Steps                    : 100 % covered to automation
+    > Ingredients              : 100 % covered to automation
+    > Ingredients Details      : 100 % covered to automation
+    > Carts                    : 100 % covered to automation
+    > Transactions             : 100 % covered to automation
+    > Transactions Details     : 100 % covered to automation
 
 ### D. 🏎️ How to Run all Test Scenarios
     > Manual Testing using Postman:
