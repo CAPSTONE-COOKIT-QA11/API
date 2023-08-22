@@ -2,7 +2,7 @@
   <p align="center">
     API Testing with RestAssured and SerenityBDD
     <br />
-    <a href="https://cookit-immersive.netlify.app/"><strong>| COOKIT |</strong></a>
+    <a href="https://cookit-immersive.netlify.app/"></a>
     <br />
     <br />
   </p>
